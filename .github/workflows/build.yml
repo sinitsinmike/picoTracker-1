@@ -60,3 +60,16 @@ jobs:
         name: picoTracker-uf2
         path: ${{github.workspace}}/build/Adapters/picoTracker/main/picoTracker.uf2 
 
+    -name: Publish website to Github pages
+        working-directory: ${{github.workspace}}
+        shell: bash
+        run: |
+            mkdir bin
+            wget 
+            cd docs &&
+            ../bin/pico_ssg && 
+            mv docs/*.html ../website
+        uses: actions/upload-pages-artifact@v1
+        with:
+            path: 'website'
+
