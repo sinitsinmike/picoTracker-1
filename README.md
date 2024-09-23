@@ -62,3 +62,4 @@ Head over to the [Developer Guide](docs/DEV.md)
 
 ## Want to know more
 I posted an article about the development of the picoTracker at [democloid.com](http://democloid.com/2023/04/20/picoTracker.html) and one about the [portable version](https://democloid.com/2023/06/22/picoTrackerPortable.html).
+## Please pretty please add MIDI In!!! ;)
